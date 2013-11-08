@@ -7,7 +7,7 @@ import javax.swing.JTextField;
 
 public class MoneyPanel extends JPanel{
 
-    public MoneyPanel(LayoutManager layout, boolean isDoubleBuffered) {
+    public MoneyPanel() {
         this.add(createTextField());
         this.add(new CurrencyPanel());
     }
